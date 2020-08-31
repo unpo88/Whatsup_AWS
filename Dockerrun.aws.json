@@ -1,0 +1,14 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Volumes": [
+    {
+      "HostDirectory": "/usr/share/nginx/html/",
+      "ContainerDirectory": "/usr/share/nginx/html/"
+    }
+  ],
+  "Ports": [
+    {
+      "ContainerPort": 80
+    }
+  ]
+}
